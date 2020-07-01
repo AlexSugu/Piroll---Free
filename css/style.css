@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(216, 216, 216);
+}
+header nav {
+    padding: 30px 0;
+    margin: 0 60px;
+}
+header nav ul{
+    float: right;
+}
+header nav ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+header nav ul li a {
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+}
+header nav ul li a:hover{
+    color: rgb(18, 248, 237);
+}
+.about{
+    text-align: center;
+    padding: 60px;
+}
+.skill{
+    padding: 120px 60px;
+    background-color: rgb(228, 225, 225);
+}
+.skillBar{
+    height: 5px;
+    width: 40vw;
+    background-color: rgb(180, 180, 180);
+}
+.skillBar div{
+    height: 100%;
+    background-color: rgb(18, 248, 237);
+}
+.disign{
+    width: 75%;
+}
+.web{
+    width: 90%;
+}
+.mark{
+    width: 65%;
+}
+
+.numbers{
+    height: 250px;
+    width: 100%;
+    background-color: rgb(32, 170, 170);
+}
+.numbersBox{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    float: left;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.numbersBox div{
+    padding-left: 20px;
+}
+.numbersBox img{
+    height: 50px;
+    width: 50px;
+}
+.numbersBox p{
+    font-size: 15px;
+}
+
+.work{
+    background-color: rgba(223, 223, 223, 0.541);
+}
+.workBox{
+    height: 35vh;
+    width: 25%;
+    float: left;
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(95, 95, 95);
+    object-fit: cover;
+    
+}
+.workBox a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.2s;
+}
+.workBox a:hover{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.5;
+}
+.work div h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(143, 143, 143);
+    padding: 60px;
+}
+
+.workProcess{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+.videoFile{
+    height: 70vh;
+    width: 60%;
+    background-color: rgb(77, 77, 77);
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.services div{
+    background-color: rgb(236, 236, 236);
+    padding: 30px 0;
+}
+.servicesBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 20vh;
+    width: 25%;
+    float: left;
+}
