@@ -6,6 +6,9 @@ header{
     height: 100vh;
     width: 100%;
     background-color: rgb(216, 216, 216);
+    background-image: url(../image/obzor/fone.png);
+    background-size: cover;
+    background-position: right;
 }
 header nav {
     padding: 30px 0;
@@ -26,6 +29,28 @@ header nav ul li a {
 header nav ul li a:hover{
     color: rgb(18, 248, 237);
 }
+header div{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    flex-direction: column;
+    width: 40%;
+    height: 60%;
+    float: right;
+}
+header div p{
+    margin-bottom: 5px;
+    color: rgb(107, 107, 107);
+}
+header div a{
+    color: white;
+    background-color: rgb(7, 228, 209);
+    padding: 20px;
+    text-decoration: none;
+    width: 120px;
+    text-align: center;
+}
+
 .about{
     text-align: center;
     padding: 60px;
@@ -33,6 +58,7 @@ header nav ul li a:hover{
 .skill{
     padding: 120px 60px;
     background-color: rgb(228, 225, 225);
+    background-image: url(../image/obzor/skil.jpg);
 }
 .skillBar{
     height: 5px;
@@ -132,17 +158,125 @@ header nav ul li a:hover{
     align-items: center;
 }
 
-
-.services div{
-    background-color: rgb(236, 236, 236);
-    padding: 30px 0;
+.services{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(240, 239, 239);
+    padding: 60px 0;
+}
+.servicesBoxDiv{
+    display: flex;
+    flex-direction: row;
 }
 .servicesBox{
+    display: flex;
+    height: 20vh;
+    width: 25%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.testManual{
+    background-color: teal;
+    height: 30vh;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+.sliderValue{
+    color: white;
+    text-align: center;
+}
+.radioButtonSlider{
+    justify-content: flex-end;
+}
+
+.clients{
+    display: flex;
+    flex-direction: row;
+}
+.clientBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: 20vh;
-    width: 25%;
-    float: left;
+    width: 20%;
+}
+.clientBox img{
+    height: 100px;
+}
+
+.needaproject{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(228, 228, 228);
+    padding: 80px 0;
+}
+
+.nameemail{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.nameemail input{
+    padding: 10px;
+    font-size: 20px;
+    width: 45%;
+    border: none;
+}
+
+#title{
+    width: 600px;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+}
+.needaproject textarea{
+    width: 600px;
+    height: 300px;
+    font-size: 20px;
+    resize: none;
+    padding: 10px;
+    border: none;
+}
+.needaproject div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.needaproject div input[type=button]{
+    padding: 15px 25px;
+    border: none;
+    margin: 0 auto;
+    background-color: rgb(4, 182, 143);
+    color: white;
+}
+
+footer{
+    background-color: black;
+    color: rgb(230, 230, 230);
+    padding: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+footer p{
+    color: rgb(196, 196, 196);
+    margin-top: 5px;
+}
+footer ul li{
+    list-style-type: none;
+    margin-bottom: 5px;
+}
+.fotterBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 20%;
 }
